@@ -4,3 +4,8 @@ version = "0.1.0"
 authors = ["chck <candysynd@gmail.com>"]
 
 [dependencies]
+regex = "0.2.2"
+clippy = { version = "*", optional = true }
+
+[features]
+default = []
